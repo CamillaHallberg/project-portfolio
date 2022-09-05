@@ -265,7 +265,7 @@ a {
     }
 
     li:not(:last-of-type) {
-        border-bottom: 4px solid #F7E2D6;
+        border-bottom: 2px solid #F7E2D6;
     } 
 
     .footer {
