@@ -264,6 +264,10 @@ a {
         text-align: left;
     }
 
+    li:not(:last-of-type) {
+        border-bottom: 4px solid #F7E2D6;
+    } 
+
     .footer {
         padding-bottom: 20px;
     }
