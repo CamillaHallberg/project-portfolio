@@ -29,16 +29,16 @@ section {
 }
 
 section:nth-child(2n) {
-    background-color: #B7D3DF;
+    background-color: #DB6B97;
 }
 
 .section:nth-child(2n + 1) {
     background-color: #FFF;
 }
 
-/* Image credit: Dominik Schröder for Unsplash.com */
+/* Image credit: Pramod Tiwari for Unsplash.com */
 .header {
-    background-image: url('./assets/hero-image-clouds.jpg');
+    background-image: url('./assets/pramod-tiwari-for-unsplash.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -69,20 +69,19 @@ section:nth-child(2n) {
 
 .header-text {
     position: relative;
-    top: 100px;
+    top: 120px;
     line-height: 64px;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 .header-text h1 {
     font-size: 62px;
-    color: #DB6B97;
 }
 
 .profile-image {
     width: 180px;
     height: 180px;
-    border: 2px solid #F5EDDC;
+    border: 6px solid #867070;
     border-radius: 50%;
     position: absolute;
     top: 364px;
@@ -90,6 +89,7 @@ section:nth-child(2n) {
 }
 
 .intro-section {
+    color: #FFF;
     height: 324px; 
     line-height: 30px;
     padding: 48px 24px 42px 24px;
@@ -106,8 +106,8 @@ section:nth-child(2n) {
     line-height: 50px;
 }
 
-.tech-pink {
-    color: #D885A3;
+.tech-highlights {
+    color: #7149C6;
     font-weight: bold;
 }
 
@@ -188,7 +188,7 @@ a {
 }
 
 .footer-text span {
-    background-color: #DB6B97;
+    background-color: #BFACE2;
     padding: 2px 6px 2px 6px;
     border-radius: 2px;
 }
@@ -215,6 +215,7 @@ a {
 
     .header-text h1 {
         font-size: 80px;
+        margin-left: 100px;
     }
 
     .profile-image {
